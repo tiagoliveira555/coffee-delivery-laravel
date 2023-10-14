@@ -32,6 +32,9 @@ module.exports = {
                 'subtitle': '#403937',
                 'title': '#272221'
             }
+        },
+        fontSize: {
+            'icon': '22px'
         }
       },
     },
