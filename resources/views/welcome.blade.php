@@ -7,6 +7,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700;800&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
         <script src="https://unpkg.com/@phosphor-icons/web"></script>
+        <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
         <title>Coffee Delivery | Laravel</title>
         @vite('resources/css/app.css')
     </head>
@@ -26,7 +27,7 @@
             </div>
         </header>
         <main class="max-w-[1440px] mx-auto">
-            <div class="mt-24 bg-intro h-[544px] bg-cover bg-no-repeat flex justify-between items-center px-40">
+            <div class="mt-[104px] bg-intro h-[544px] bg-cover bg-no-repeat flex justify-between items-center px-40">
                 <div class="w-[588px]">
                     <h1 class="font-baloo text-base-title font-extrabold text-5xl leading-[62.4px]">Encontre o café perfeito para qualquer hora do dia</h1>
                     <h2 class="text-base-subtitle text-xl leading-[26px] mt-4">Com o Coffee Delivery você recebe seu café onde estiver, a qualquer hora</h2>
@@ -61,5 +62,20 @@
                 <img src="imgs/intro-img.svg" alt="Img Intro">
             </div>
         </main>
+        <section class="max-w-[1440px] mx-auto px-40">
+            <div class="flex justify-between items-center mt-7">
+                <h2 class="font-baloo text-[32px] font-extrabold text-base-subtitle">Nossos cafés</h2>
+                <ul class="flex gap-2 justify-center items-center">
+                    <li class="uppercase border border-product-yellow text-product-yellow-dark py-[6px] px-3 text-[10px] font-bold rounded-[100px] leading-[13px]">tradicional</li>
+                    <li class="uppercase border border-product-yellow text-product-yellow-dark py-[6px] px-3 text-[10px] font-bold rounded-[100px] leading-[13px]">especial</li>
+                    <li class="uppercase border border-product-yellow text-product-yellow-dark py-[6px] px-3 text-[10px] font-bold rounded-[100px] leading-[13px]">com leite</li>
+                    <li class="uppercase border border-product-yellow text-product-yellow-dark py-[6px] px-3 text-[10px] font-bold rounded-[100px] leading-[13px]">alcoólico</li>
+                    <li class="uppercase border border-product-yellow text-product-yellow-dark py-[6px] px-3 text-[10px] font-bold rounded-[100px] leading-[13px]">gelado</li>
+                </ul>
+            </div>
+            <div>
+                cards
+            </div>
+        </section>
     </body>
 </html>
