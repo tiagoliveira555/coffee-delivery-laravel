@@ -10,8 +10,8 @@
         <title>Coffee Delivery | Laravel</title>
         @vite('resources/css/app.css')
     </head>
-    <body class="font-roboto antialiased bg-base-background">
-        <header class="fixed w-full">
+    <body class="font-roboto antialiased bg-base-background h-full">
+        <header class="fixed w-full top-0">
             <div class="max-w-[1440px] mx-auto px-40 py-8 flex justify-between items-center">
                 <img src="imgs/coffee-delivery-logo.svg" alt="Logo">
                 <div class="flex justify-center items-center gap-3">
@@ -25,5 +25,10 @@
                 </div>
             </div>
         </header>
+        <main class="max-w-[1440px] mx-auto">
+            <div class="mt-[104px] bg-intro h-[546px] bg-cover bg-no-repeat">
+
+            </div>
+        </main>
     </body>
 </html>

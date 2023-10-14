@@ -35,6 +35,9 @@ module.exports = {
         },
         fontSize: {
             'icon': '22px'
+        },
+        backgroundImage: {
+            'intro': "url(http://coffee-delivery.test/imgs/intro-background.png)"
         }
       },
     },
