@@ -12,7 +12,7 @@
         @vite('resources/css/app.css')
     </head>
     <body class="font-roboto antialiased bg-base-background h-full">
-        <header class="fixed w-full top-0">
+        <header class="fixed w-full top-0 bg-base-background">
             <div class="max-w-[1440px] mx-auto px-40 py-8 flex justify-between items-center">
                 <img src="imgs/coffee-delivery-logo.svg" alt="Logo">
                 <div class="flex justify-center items-center gap-3">
@@ -63,7 +63,7 @@
             </div>
         </main>
         <section class="max-w-[1440px] mx-auto px-40">
-            <div class="flex justify-between items-center mt-7">
+            <div class="flex justify-between items-center mt-8">
                 <h2 class="font-baloo text-[32px] font-extrabold text-base-subtitle">Nossos cafés</h2>
                 <ul class="flex gap-2 justify-center items-center">
                     <li class="uppercase border border-product-yellow text-product-yellow-dark py-[6px] px-3 text-[10px] font-bold rounded-[100px] leading-[13px]">tradicional</li>
@@ -74,7 +74,12 @@
                 </ul>
             </div>
             <div>
-                cards
+                <div class="bg-base-card w-64 h-[310px]">
+
+                </div>
+                <div class="bg-base-card w-64 h-[310px]">
+
+                </div>
             </div>
         </section>
     </body>
