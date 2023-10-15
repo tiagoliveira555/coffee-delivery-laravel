@@ -17,6 +17,7 @@
                         </div>
                         <span class="text-base-text">Embalagem mantém o café intacto</span>
                     </div>
+
                     <div class="flex justify-start items-center gap-3 w-[231px]">
                         <div class="w-8 h-8 bg-product-yellow rounded-full text-base-background flex justify-center items-center">
                             <i class="text-base ph-fill ph-timer"></i>

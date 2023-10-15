@@ -19,12 +19,26 @@
         <span class="text-sm text-base-text">R$
             <strong class="font-baloo text-base-text text-2xl font-extrabold">{{ number_format($price, 2, ',', '.') }}</strong>
         </span>
-        <div class="flex justify-center items-center gap-2">
+        <div
+            x-data="{ quantity: 1 }"
+            class="flex justify-center items-center gap-2"
+        >
             <div class="bg-base-button p-2 rounded-md flex justify-center items-center gap-3">
-                <button class="bg-transparent border-none"><i class="ph-bold ph-minus text-sm text-product-purple hover:text-product-purple-dark transition-all"></i></button>
-                <span class="text-base-title">1</span>
-                <button class="bg-transparent border-none"><i class="ph-bold ph-plus text-sm text-product-purple hover:text-product-purple-dark transition-all"></i></button>
+                <button
+                    x-on:click="if (quantity > 1) quantity--"
+                    class="bg-transparent border-none"
+                >
+                    <i class="ph-bold ph-minus text-sm text-product-purple hover:text-product-purple-dark transition-all"></i>
+                </button>
+                <span class="text-base-title" x-text="quantity"></span>
+                <button
+                    x-on:click="quantity++"
+                    class="bg-transparent border-none"
+                >
+                    <i class="ph-bold ph-plus text-sm text-product-purple hover:text-product-purple-dark transition-all"></i>
+                </button>
             </div>
+
             <button class="flex justify-center items-center border-none text-base-card p-2 rounded-md bg-product-purple-dark hover:bg-product-purple transition-all">
                 <i class="text-icon ph-fill ph-shopping-cart"></i>
             </button>

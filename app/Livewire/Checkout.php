@@ -12,9 +12,4 @@ class Checkout extends Component
     {
         return view('livewire.checkout');
     }
-
-    public function save()
-    {
-        return $this->redirect('success', navigate: true);
-    }
 }
