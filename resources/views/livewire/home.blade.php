@@ -1,18 +1,4 @@
 <div>
-    <header class="fixed w-full top-0 bg-base-background">
-        <div class="max-w-[1440px] mx-auto px-40 py-8 flex justify-between items-center">
-            <img src="imgs/coffee-delivery-logo.svg" alt="Logo">
-            <div class="flex justify-center items-center gap-3">
-                <div class="flex justify-center items-center bg-product-purple-light p-2 gap-1 rounded-md">
-                    <i class="text-product-purple text-icon ph-fill ph-map-pin"></i>
-                    <span class="text-product-purple-dark text-sm tracking-wide">Paripiranga, BA</span>
-                </div>
-                <div class="w-[38px] h-[38px] flex justify-center items-center rounded-md bg-product-yellow-light">
-                    <i class="text-product-yellow-dark text-icon ph-fill ph-shopping-cart"></i>
-                </div>
-            </div>
-        </div>
-    </header>
     <main class="max-w-[1440px] mx-auto">
         <div class="mt-[104px] bg-intro h-[544px] bg-cover bg-no-repeat flex justify-between items-center px-40">
             <div class="w-[588px]">
