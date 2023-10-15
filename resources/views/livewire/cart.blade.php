@@ -1,5 +1,5 @@
 <div>
-    <h2 class="font-baloo text-lg text-base-subtitle">Café selecionados</h2>
+    <x-h2>Café selecionados</x-h2>
     <div class="w-[448px] bg-base-card mt-3 p-10 rounded-tl-md rounded-tr-[44px] rounded-br-md rounded-bl-[44px] shadow-sm">
         <div class="w-[368px] py-2 px-1 flex justify-between">
             <div class="flex gap-5">
