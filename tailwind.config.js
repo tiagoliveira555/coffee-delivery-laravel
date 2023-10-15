@@ -31,13 +31,14 @@ module.exports = {
                 'text': '#574F4D',
                 'subtitle': '#403937',
                 'title': '#272221'
-            }
+            },
         },
         fontSize: {
             'icon': '22px'
         },
         backgroundImage: {
-            'intro': "url(http://coffee-delivery.test/imgs/intro-background.png)"
+            'intro': "url(http://coffee-delivery.test/imgs/intro-background.png)",
+            'border-gradient': "linear-gradient(102.89deg, #DBAC2C 2.61%, #8047F8 98.76%)"
         }
       },
     },

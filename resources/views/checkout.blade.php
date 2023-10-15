@@ -127,7 +127,7 @@
                                 <div class="flex justify-center items-center gap-2">
                                     <div class="h-8 bg-base-button p-2 rounded-md flex justify-center items-center gap-3">
                                         <button class="bg-transparent border-none"><i class="ph-bold ph-minus text-sm text-product-purple hover:text-product-purple-dark transition-all"></i></button>
-                                        <span class="text-base-title">1</span>
+                                        <span class="text-base-title">2</span>
                                         <button class="bg-transparent border-none"><i class="ph-bold ph-plus text-sm text-product-purple hover:text-product-purple-dark transition-all"></i></button>
                                     </div>
                                     <button class="h-8 bg-base-button p-2 rounded-md flex justify-center items-center gap-1 px-2 hover:bg-base-hover transition-all">
