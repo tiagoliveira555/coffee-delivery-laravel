@@ -17,4 +17,9 @@ class Home extends Component
             $this->coffees = Coffee::query()->get()->toArray(),
         ]);
     }
+
+    public function add()
+    {
+        $this->dispatch('test::test');
+    }
 }

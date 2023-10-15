@@ -61,5 +61,6 @@
                 confirmar pedido
             </button>
         </div>
+        {{ $cart }}
     </div>
 </div>

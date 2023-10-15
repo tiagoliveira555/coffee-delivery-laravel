@@ -48,13 +48,7 @@
         </div>
         <div class="grid grid-cols-4 gap-10 mt-8 mb-32">
             @foreach ($coffees as $coffee)
-                <x-coffee-card
-                name="{{ $coffee['name'] }}"
-                description="{{ $coffee['description'] }}"
-                price="{{ $coffee['price'] }}"
-                tags="{{ $coffee['tags'] }}"
-                image="{{ $coffee['image'] }}"
-                />
+                <x-coffee-card :$coffee />
             @endforeach
         </div>
     </section>
