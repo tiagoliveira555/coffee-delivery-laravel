@@ -8,7 +8,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700;800&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
         <script src="https://unpkg.com/@phosphor-icons/web"></script>
         <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
-        <title>Coffee Delivery | Checkout</title>
+        <title>Coffee Delivery | Success</title>
         @vite('resources/css/app.css')
     </head>
     <body class="font-roboto antialiased bg-base-background h-full">
