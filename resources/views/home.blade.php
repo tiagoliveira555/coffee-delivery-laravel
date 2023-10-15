@@ -85,14 +85,14 @@
                             <strong class="font-baloo text-base-text text-2xl font-extrabold">9,90</strong>
                         </span>
                         <div class="flex justify-center items-center gap-2">
-                            <div class="bg-base-button p-2 rounded-md flex justify-center items-center gap-2">
-                                <i class="ph-bold ph-minus text-sm text-product-purple"></i>
+                            <div class="bg-base-button p-2 rounded-md flex justify-center items-center gap-3">
+                                <button class="bg-transparent border-none"><i class="ph-bold ph-minus text-sm text-product-purple hover:text-product-purple-dark transition-all"></i></button>
                                 <span class="text-base-title">1</span>
-                                <i class="ph-bold ph-plus text-sm text-product-purple"></i>
+                                <button class="bg-transparent border-none"><i class="ph-bold ph-plus text-sm text-product-purple hover:text-product-purple-dark transition-all"></i></button>
                             </div>
-                            <div class="flex justify-center items-center text-base-card p-2 rounded-md bg-product-purple-dark w-[38px] h-[38px]">
+                            <button class="flex justify-center items-center border-none text-base-card p-2 rounded-md bg-product-purple-dark hover:bg-product-purple transition-all">
                                 <i class="text-icon ph-fill ph-shopping-cart"></i>
-                            </div>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -108,14 +108,14 @@
                             <strong class="font-baloo text-base-text text-2xl font-extrabold">9,90</strong>
                         </span>
                         <div class="flex justify-center items-center gap-2">
-                            <div class="bg-base-button p-2 rounded-md flex justify-center items-center gap-2">
-                                <i class="ph-bold ph-minus text-sm text-product-purple"></i>
+                            <div class="bg-base-button p-2 rounded-md flex justify-center items-center gap-3">
+                                <button class="bg-transparent border-none"><i class="ph-bold ph-minus text-sm text-product-purple hover:text-product-purple-dark transition-all"></i></button>
                                 <span class="text-base-title">1</span>
-                                <i class="ph-bold ph-plus text-sm text-product-purple"></i>
+                                <button class="bg-transparent border-none"><i class="ph-bold ph-plus text-sm text-product-purple hover:text-product-purple-dark transition-all"></i></button>
                             </div>
-                            <div class="flex justify-center items-center text-base-card p-2 rounded-md bg-product-purple-dark w-[38px] h-[38px]">
+                            <button class="flex justify-center items-center border-none text-base-card p-2 rounded-md bg-product-purple-dark hover:bg-product-purple transition-all">
                                 <i class="text-icon ph-fill ph-shopping-cart"></i>
-                            </div>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -131,14 +131,14 @@
                             <strong class="font-baloo text-base-text text-2xl font-extrabold">9,90</strong>
                         </span>
                         <div class="flex justify-center items-center gap-2">
-                            <div class="bg-base-button p-2 rounded-md flex justify-center items-center gap-2">
-                                <i class="ph-bold ph-minus text-sm text-product-purple"></i>
+                            <div class="bg-base-button p-2 rounded-md flex justify-center items-center gap-3">
+                                <button class="bg-transparent border-none"><i class="ph-bold ph-minus text-sm text-product-purple hover:text-product-purple-dark transition-all"></i></button>
                                 <span class="text-base-title">1</span>
-                                <i class="ph-bold ph-plus text-sm text-product-purple"></i>
+                                <button class="bg-transparent border-none"><i class="ph-bold ph-plus text-sm text-product-purple hover:text-product-purple-dark transition-all"></i></button>
                             </div>
-                            <div class="flex justify-center items-center text-base-card p-2 rounded-md bg-product-purple-dark w-[38px] h-[38px]">
+                            <button class="flex justify-center items-center border-none text-base-card p-2 rounded-md bg-product-purple-dark hover:bg-product-purple transition-all">
                                 <i class="text-icon ph-fill ph-shopping-cart"></i>
-                            </div>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -154,14 +154,14 @@
                             <strong class="font-baloo text-base-text text-2xl font-extrabold">9,90</strong>
                         </span>
                         <div class="flex justify-center items-center gap-2">
-                            <div class="bg-base-button p-2 rounded-md flex justify-center items-center gap-2">
-                                <i class="ph-bold ph-minus text-sm text-product-purple"></i>
+                            <div class="bg-base-button p-2 rounded-md flex justify-center items-center gap-3">
+                                <button class="bg-transparent border-none"><i class="ph-bold ph-minus text-sm text-product-purple hover:text-product-purple-dark transition-all"></i></button>
                                 <span class="text-base-title">1</span>
-                                <i class="ph-bold ph-plus text-sm text-product-purple"></i>
+                                <button class="bg-transparent border-none"><i class="ph-bold ph-plus text-sm text-product-purple hover:text-product-purple-dark transition-all"></i></button>
                             </div>
-                            <div class="flex justify-center items-center text-base-card p-2 rounded-md bg-product-purple-dark w-[38px] h-[38px]">
+                            <button class="flex justify-center items-center border-none text-base-card p-2 rounded-md bg-product-purple-dark hover:bg-product-purple transition-all">
                                 <i class="text-icon ph-fill ph-shopping-cart"></i>
-                            </div>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -177,14 +177,14 @@
                             <strong class="font-baloo text-base-text text-2xl font-extrabold">9,90</strong>
                         </span>
                         <div class="flex justify-center items-center gap-2">
-                            <div class="bg-base-button p-2 rounded-md flex justify-center items-center gap-2">
-                                <i class="ph-bold ph-minus text-sm text-product-purple"></i>
+                            <div class="bg-base-button p-2 rounded-md flex justify-center items-center gap-3">
+                                <button class="bg-transparent border-none"><i class="ph-bold ph-minus text-sm text-product-purple hover:text-product-purple-dark transition-all"></i></button>
                                 <span class="text-base-title">1</span>
-                                <i class="ph-bold ph-plus text-sm text-product-purple"></i>
+                                <button class="bg-transparent border-none"><i class="ph-bold ph-plus text-sm text-product-purple hover:text-product-purple-dark transition-all"></i></button>
                             </div>
-                            <div class="flex justify-center items-center text-base-card p-2 rounded-md bg-product-purple-dark w-[38px] h-[38px]">
+                            <button class="flex justify-center items-center border-none text-base-card p-2 rounded-md bg-product-purple-dark hover:bg-product-purple transition-all">
                                 <i class="text-icon ph-fill ph-shopping-cart"></i>
-                            </div>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -200,14 +200,14 @@
                             <strong class="font-baloo text-base-text text-2xl font-extrabold">9,90</strong>
                         </span>
                         <div class="flex justify-center items-center gap-2">
-                            <div class="bg-base-button p-2 rounded-md flex justify-center items-center gap-2">
-                                <i class="ph-bold ph-minus text-sm text-product-purple"></i>
+                            <div class="bg-base-button p-2 rounded-md flex justify-center items-center gap-3">
+                                <button class="bg-transparent border-none"><i class="ph-bold ph-minus text-sm text-product-purple hover:text-product-purple-dark transition-all"></i></button>
                                 <span class="text-base-title">1</span>
-                                <i class="ph-bold ph-plus text-sm text-product-purple"></i>
+                                <button class="bg-transparent border-none"><i class="ph-bold ph-plus text-sm text-product-purple hover:text-product-purple-dark transition-all"></i></button>
                             </div>
-                            <div class="flex justify-center items-center text-base-card p-2 rounded-md bg-product-purple-dark w-[38px] h-[38px]">
+                            <button class="flex justify-center items-center border-none text-base-card p-2 rounded-md bg-product-purple-dark hover:bg-product-purple transition-all">
                                 <i class="text-icon ph-fill ph-shopping-cart"></i>
-                            </div>
+                            </button>
                         </div>
                     </div>
                 </div>
