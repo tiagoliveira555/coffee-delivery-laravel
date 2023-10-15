@@ -72,22 +72,22 @@
                     </div>
                     <div class="mt-8 flex justify-center items-center gap-3">
                         <div class="flex items-center flex-1 gap-3">
-                            <input class="sr-only peer" type="radio" name="payment" id="credit">
-                            <label class="peer-checked:bg-product-purple-light border peer-checked:border-product-purple flex items-center flex-1 gap-3 cursor-pointer p-4 bg-base-button rounded-md hover:bg-base-hover transition-all" for="credit">
+                            <input class="sr-only peer" type="radio" name="payment" id="card">
+                            <label class="peer-checked:bg-product-purple-light border peer-checked:border-product-purple flex justify-center items-center flex-1 gap-3 cursor-pointer p-4 bg-base-button rounded-md hover:bg-base-hover transition-all" for="card">
                                 <i class="text-product-purple ph ph-credit-card"></i>
-                                <span class="text-base-text text-xs uppercase">cartão de crédito</span>
+                                <span class="text-base-text text-xs uppercase">cartão</span>
                             </label>
                         </div>
                         <div class="flex items-center flex-1 gap-3">
-                            <input class="sr-only peer" type="radio" name="payment" id="debit">
-                            <label class="peer-checked:bg-product-purple-light border peer-checked:border-product-purple flex items-center flex-1 gap-3 cursor-pointer p-4 bg-base-button rounded-md hover:bg-base-hover transition-all" for="debit">
-                                <i class="text-product-purple ph ph-bank"></i>
-                                <span class="text-base-text text-xs uppercase">cartão de débito</span>
+                            <input class="sr-only peer" type="radio" name="payment" id="pix">
+                            <label class="peer-checked:bg-product-purple-light border peer-checked:border-product-purple flex justify-center items-center flex-1 gap-3 cursor-pointer p-4 bg-base-button rounded-md hover:bg-base-hover transition-all" for="pix">
+                                <i class="text-product-purple ph ph-qr-code"></i>
+                                <span class="text-base-text text-xs uppercase">pix</span>
                             </label>
                         </div>
                         <div class="flex items-center flex-1 gap-3">
                             <input class="sr-only peer" type="radio" name="payment" id="money">
-                            <label class="peer-checked:bg-product-purple-light border peer-checked:border-product-purple flex items-center flex-1 gap-3 cursor-pointer p-4 bg-base-button rounded-md hover:bg-base-hover transition-all" for="money">
+                            <label class="peer-checked:bg-product-purple-light border peer-checked:border-product-purple flex justify-center items-center flex-1 gap-3 cursor-pointer p-4 bg-base-button rounded-md hover:bg-base-hover transition-all" for="money">
                                 <i class="text-product-purple ph ph-money"></i>
                                 <span class="text-base-text text-xs uppercase">dinheiro</span>
                             </label>

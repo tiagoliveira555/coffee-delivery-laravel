@@ -31,7 +31,6 @@
                 <div class="w-[588px]">
                     <h1 class="font-baloo text-base-title font-extrabold text-5xl leading-[62.4px]">Encontre o café perfeito para qualquer hora do dia</h1>
                     <h2 class="text-base-subtitle text-xl leading-[26px] mt-4">Com o Coffee Delivery você recebe seu café onde estiver, a qualquer hora</h2>
-
                     <div class="mt-[68px] flex flex-wrap gap-5">
                         <div class="flex justify-start items-center gap-3 w-[231px]">
                             <div class="w-8 h-8 bg-product-yellow-dark rounded-full text-base-background flex justify-center items-center">
