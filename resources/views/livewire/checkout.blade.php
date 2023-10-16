@@ -10,13 +10,13 @@
                 </div>
             </div>
             <div class="mt-7">
-                <x-input-address type="text" id="cep" placeholder="CEP" width="[200px]" />
-                <x-input-address type="text" id="rua" placeholder="Rua" width="full" mt />
-                <x-input-address type="text" id="numero" placeholder="Número" width="[200px]" mt />
-                <x-input-address type="text" id="complemento" placeholder="Complemento" width="[348px]" widthInput mt ml optional />
-                <x-input-address type="text" id="bairro" placeholder="Bairro" width="[200px]" mt />
-                <x-input-address type="text" id="cidade" placeholder="Cidade" width="[276px]" mt ml />
-                <x-input-address type="text" id="uf" placeholder="UF" width="[60px]" mt ml />
+                <x-input-address type="text" id="cep" placeholder="CEP" width="w-[200px]" />
+                <x-input-address type="text" id="rua" placeholder="Rua" width="w-full" mt />
+                <x-input-address type="text" id="numero" placeholder="Número" width="w-[200px]" mt />
+                <x-input-address type="text" id="complemento" placeholder="Complemento" width="w-[348px]" widthInput mt ml optional />
+                <x-input-address type="text" id="bairro" placeholder="Bairro" width="w-[200px]" mt />
+                <x-input-address type="text" id="cidade" placeholder="Cidade" width="w-[276px]" mt ml />
+                <x-input-address type="text" id="uf" placeholder="UF" width="w-[60px]" mt ml />
             </div>
         </div>
         <div class="w-[640px] bg-base-card mt-4 shadow-sm p-10 rounded-md">
