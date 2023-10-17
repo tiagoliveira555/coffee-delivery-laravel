@@ -39,7 +39,7 @@
             </div>
 
             <button
-                wire:click="add"
+                wire:click="addToCart({{ $coffee['id'] }}, quantity)"
                 class="flex justify-center items-center border-none text-base-card p-2 rounded-md bg-product-purple-dark hover:bg-product-purple transition-all"
             >
                 <i class="text-icon ph-fill ph-shopping-cart"></i>
