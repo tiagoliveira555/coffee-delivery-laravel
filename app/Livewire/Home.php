@@ -23,13 +23,15 @@ class Home extends Component
     {
         $cart = session()->get('cart') ?? [];
 
-        if (array_key_exists($coffee['id'] - 1, $cart)) {
-            $cart[$coffee['id'] - 1]->quantity = $quantity;
+        if (array_key_exists($coffee['id'], $cart)) {
+            $cart[$coffee['id']]['quantity'] = $quantity;
         } else {
-            $coffee = new ItemsCart(id: $coffee['id'], name: $coffee['name'], price: $coffee['price'], quantity: $quantity);
-            $cart[] = $coffee;
+            $coffee = (array) new ItemsCart(id: $coffee['id'], name: $coffee['name'], price: $coffee['price'], quantity: $quantity);
+            $cart[$coffee['id']] = $coffee;
         }
 
         session()->put('cart', $cart);
+
+        $this->dispatch('count::card');
     }
 }

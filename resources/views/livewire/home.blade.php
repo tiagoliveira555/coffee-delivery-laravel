@@ -39,7 +39,7 @@
         <ul>
             @foreach(session('cart') as $coffee)
             <li>
-                Name: {{ $coffee->name }} | Qtde: {{ $coffee->quantity }}
+                Name: {{ $coffee['name'] }} | Qtde: {{ $coffee['quantity'] }}
             </li>
             @endforeach
         </ul>

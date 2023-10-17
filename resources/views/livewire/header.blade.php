@@ -9,9 +9,11 @@
             <div class="relative w-14 h-14 flex justify-center items-center bg-inherit -mr-2">
                 <a href="{{ route('checkout') }}" wire:navigate class="w-[38px] h-[38px] flex justify-center items-center rounded-md bg-product-yellow-light">
                     <i class="text-product-yellow-dark text-icon ph-fill ph-shopping-cart"></i>
+                    @if ($this->getCountCart > 0)
                     <span class="text-base-white text-xs font-bold absolute top-0 right-0 rounded-full flex justify-center items-center bg-product-yellow-dark w-5 h-5">
-                        3
+                        {{ $this->getCountCart }}
                     </span>
+                    @endif
                 </a>
             </div>
         </div>
