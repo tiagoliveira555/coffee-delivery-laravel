@@ -34,16 +34,6 @@
             </div>
             <img src="imgs/intro-img.svg" alt="Img Intro">
         </div>
-
-        @if(session('cart'))
-        <ul>
-            @foreach(session('cart') as $coffee)
-            <li>
-                Name: {{ $coffee['name'] }} | Qtde: {{ $coffee['quantity'] }}
-            </li>
-            @endforeach
-        </ul>
-        @endif
     </main>
 
     <section class="max-w-[1440px] mx-auto px-40">

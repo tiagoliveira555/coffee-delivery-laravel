@@ -2,8 +2,7 @@
 
 namespace App\Livewire;
 
-use App\Models\Coffee;
-use App\Models\Entities\ItemsCart;
+use App\Helpers\Helper;
 use Livewire\Attributes\Title;
 use Livewire\Component;
 
@@ -15,20 +14,23 @@ class Home extends Component
     public function render()
     {
         return view('livewire.home', [
-            $this->coffees = Coffee::query()->get()->toArray(),
+            $this->coffees = Helper::coffees(),
         ]);
     }
 
-    public function addToCart(Coffee $coffee, int $quantity)
+    public function addToCart(int $id, int $quantity)
     {
         $cart = session()->get('cart') ?? [];
 
-        if (array_key_exists($coffee['id'], $cart)) {
-            $cart[$coffee['id']]['quantity'] = $quantity;
-        } else {
-            $coffee = (array) new ItemsCart(id: $coffee['id'], name: $coffee['name'], price: $coffee['price'], quantity: $quantity);
-            $cart[$coffee['id']] = $coffee;
-        }
+        $coffee = collect($this->coffees)->get($id - 1);
+
+        $cart[$id] = [
+            'id' => $coffee['id'],
+            'name' => $coffee['name'],
+            'price' => $coffee['price'],
+            'image' => $coffee['image'],
+            'quantity' => $quantity,
+        ];
 
         session()->put('cart', $cart);
 
