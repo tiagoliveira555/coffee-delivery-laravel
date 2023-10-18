@@ -2,6 +2,7 @@
 
 namespace App\Livewire;
 
+use Illuminate\Support\Facades\Http;
 use Livewire\Attributes\On;
 use Livewire\Attributes\Rule;
 use Livewire\Attributes\Title;
@@ -36,6 +37,17 @@ class Checkout extends Component
     public function render()
     {
         return view('livewire.checkout');
+    }
+
+    public function searchCEP()
+    {
+        $response = Http::get("viacep.com.br/ws/{$this->cep}/json/")->json();
+
+        $this->cep = $response['cep'];
+        $this->rua = $response['logradouro'];
+        $this->bairro = $response['bairro'];
+        $this->cidade = $response['localidade'];
+        $this->uf = $response['uf'];
     }
 
     #[On('save::checkout')]

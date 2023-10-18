@@ -10,7 +10,14 @@
                 </div>
             </div>
             <div class="mt-7">
-                <x-input-address type="text" id="cep" placeholder="CEP" width="w-[200px]" />
+                <input
+                    class="block w-[200px] bg-base-input text-sm text-base-text outline-none border @error('cep') border-red-500 @enderror rounded p-3 transition-all focus-within:border-product-yellow placeholder:text-base-lable placeholder:text-sm"
+                    type="text"
+                    placeholder="CEP"
+                    wire:model="cep"
+                    wire:change="searchCEP"
+                    value="cep"
+                >
                 <x-input-address type="text" id="rua" placeholder="Rua" width="w-full" mt />
                 <x-input-address type="text" id="numero" placeholder="Número" width="w-[200px]" mt />
                 <x-input-address type="text" id="complemento" placeholder="Complemento" width="w-[348px]" widthInput mt ml optional />
