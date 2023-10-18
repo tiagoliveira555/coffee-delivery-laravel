@@ -8,8 +8,12 @@ use Livewire\Component;
 #[Title('Success')]
 class Success extends Component
 {
+    public $finally;
+
     public function render()
     {
-        return view('livewire.success');
+        return view('livewire.success')->with([
+            $this->finally = session()->get('finally') ?? [],
+        ]);
     }
 }

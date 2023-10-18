@@ -9,14 +9,18 @@
     'optional' => null
 ])
 
-<label for="{{ $id }}" class="inline-block {{ $width }} {{ $mt !== null ? 'mt-4' : '' }} {{ $ml !== null ? 'ml-2' : '' }} bg-base-input border border-base-button focus-within:border-product-yellow-dark transition-all px-3 py-2 rounded">
+<label for="{{ $id }}"
+    class="inline-block {{ $width }} {{ $mt !== null ? 'mt-4' : '' }} {{ $ml !== null ? 'ml-2' : '' }} bg-base-input border @error($id) border-red-500 @enderror focus-within:border-product-yellow-dark transition-all px-3 py-2 rounded"
+>
     <input
+        wire:model="{{ $id }}"
+        name="{{ $id }}"
         class="{{ $widthInput === null ? 'w-full' : 'w-10/12' }} text-sm bg-inherit text-base-text outline-none placeholder:text-base-lable placeholder:text-sm"
         type="{{ $type }}"
         id="{{ $id }}"
         placeholder="{{ $placeholder }}"
     >
     @if ($optional)
-    <label for="complemento" class="inline-block text-xs italic text-base-lable">Opcional</label>
+        <label for="complemento" class="inline-block text-xs italic text-base-lable">Opcional</label>
     @endif
 </label>

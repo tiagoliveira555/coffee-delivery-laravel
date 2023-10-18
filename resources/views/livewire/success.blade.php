@@ -1,3 +1,17 @@
+@php
+    switch ($finally[0]['payment']) {
+        case 'card':
+            $payment = 'Cartão';
+            break;
+        case 'money':
+            $payment = 'Dinheiro';
+            break;
+        default:
+            $payment = 'PIX';
+            break;
+    }
+@endphp
+
 <main class="mt-[184px] max-w-[1440px] mx-auto px-40">
     <h1 class="font-baloo text-product-yellow-dark text-[32px] font-extrabold">Uhu! Pedido confirmado</h1>
     <p class="text-base-subtitle text-xl">Agora é só aguardar que logo o café chegará até você</p>
@@ -9,8 +23,8 @@
                         <i class="text-base-background ph-fill ph-map-pin"></i>
                     </div>
                     <div>
-                        <p class="text-base-text leading-5">Entraga em <strong>Pov. Cavaco de Dalmo, S/N</strong></p>
-                        <p class="text-base-text leading-5">Zona Rural - Paripiranga, BA</p>
+                        <p class="text-base-text leading-5">Entraga em <strong>{{ $finally[0]['rua'] }}, {{ $finally[0]['numero'] }}</strong></p>
+                        <p class="text-base-text leading-5">{{ $finally[0]['bairro'] }} - {{ $finally[0]['cidade'] }}, {{ $finally[0]['uf'] }}</p>
                     </div>
                 </div>
                 <div class="flex items-center gap-3">
@@ -28,7 +42,7 @@
                     </div>
                     <div>
                         <p class="text-base-text leading-5">Pagamento na entrega</p>
-                        <strong class="text-base-text leading-5">PIX</strong>
+                        <strong class="text-base-text leading-5">{{ $payment }}</strong>
                     </div>
                 </div>
             </div>

@@ -20,9 +20,7 @@ class Cart extends Component
 
     public function save()
     {
-        session()->flush();
-
-        return $this->redirect('success', navigate: true);
+        $this->dispatch('save::checkout');
     }
 
     public function incrementQuantity(int $id)
@@ -67,6 +65,6 @@ class Cart extends Component
     {
         return collect($this->cart)->sum(function ($item) {
             return $item['price'] * $item['quantity'];
-        }) - 3.5;
+        }) + 3.5;
     }
 }
