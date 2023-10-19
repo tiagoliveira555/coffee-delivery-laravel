@@ -43,11 +43,13 @@ class Checkout extends Component
     {
         $response = Http::get("viacep.com.br/ws/{$this->cep}/json/")->json();
 
-        $this->cep = $response['cep'];
-        $this->rua = $response['logradouro'];
-        $this->bairro = $response['bairro'];
-        $this->cidade = $response['localidade'];
-        $this->uf = $response['uf'];
+        if ($response) {
+            $this->cep = $response['cep'];
+            $this->rua = $response['logradouro'];
+            $this->bairro = $response['bairro'];
+            $this->cidade = $response['localidade'];
+            $this->uf = $response['uf'];
+        }
     }
 
     #[On('save::checkout')]
