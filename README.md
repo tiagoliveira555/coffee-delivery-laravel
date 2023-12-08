@@ -3,6 +3,7 @@
 <h1 align="center">Coffee Delivery Laravel</h1>
 
 <p align="center">
+  <a href="#-link">Link do Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-como-executar">Como executar</a>&nbsp;&nbsp;&nbsp;
@@ -10,7 +11,11 @@
 
 <br>
 
-##   Tecnologias
+## 🔗 Link do Projeto
+
+[Clique aqui](https://coffee-delivery.tiagodeveloper.tech/)
+
+## Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
@@ -19,11 +24,11 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Alpine.js](https://alpinejs.dev/)
 - [Tailwind CSS](https://tailwindcss.com/)
 
-##   Projeto
+## Projeto
 
 O projeto consiste em um serviço de delivery de cafés, onde os usuários podem navegar pelo catálogo$
 
-##   Como executar
+## Como executar
 
 - Clone o repositório
 - Crie um arquivo `.env`, recomendo usar `.env-example` como base
