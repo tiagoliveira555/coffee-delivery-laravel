@@ -23,7 +23,7 @@
                         <i class="text-base-background ph-fill ph-map-pin"></i>
                     </div>
                     <div>
-                        <p class="text-base-text leading-5">Entraga em <strong>{{ $finally[0]['rua'] }}, {{ $finally[0]['numero'] }}</strong></p>
+                        <p class="text-base-text leading-5">Entrega em <strong>{{ $finally[0]['rua'] }}, {{ $finally[0]['numero'] }}</strong></p>
                         <p class="text-base-text leading-5">{{ $finally[0]['bairro'] }} - {{ $finally[0]['cidade'] }}, {{ $finally[0]['uf'] }}</p>
                     </div>
                 </div>
