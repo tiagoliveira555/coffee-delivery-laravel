@@ -1,4 +1,4 @@
-<img src="https://github.com/tiagoliveira555/coffee-delivery-laravel/blob/main/public/imgs/captura.$
+<img src="https://github.com/tiagoliveira555/coffee-delivery-laravel/blob/main/public/imgs/captura.png" alt="Logo">
 
 <h1 align="center">Coffee Delivery Laravel</h1>
 
