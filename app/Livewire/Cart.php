@@ -26,7 +26,7 @@ class Cart extends Component
     public function incrementQuantity(int $id)
     {
         if ($item = collect($this->cart)->get($id)) {
-            ++$item['quantity'];
+            $item['quantity']++;
             $this->cart[$id] = $item;
             session()->put('cart', $this->cart);
             $this->dispatch('count::card');
@@ -38,7 +38,7 @@ class Cart extends Component
         $item = collect($this->cart)->get($id);
 
         if ($item['quantity'] > 1) {
-            --$item['quantity'];
+            $item['quantity']--;
             $this->cart[$id] = $item;
             session()->put('cart', $this->cart);
             $this->dispatch('count::card');

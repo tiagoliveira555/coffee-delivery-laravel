@@ -1,18 +1,20 @@
-<header class="fixed w-full top-0 bg-base-background">
-    <div class="max-w-[1440px] mx-auto px-40 py-6 flex justify-between items-center">
-        <a href="{{ route('home') }}" wire:navigate ><img src="imgs/coffee-delivery-logo.svg" alt="Logo"></a>
-        <div class="flex justify-center items-center gap-1">
-            <div class="flex justify-center items-center bg-product-purple-light p-2 gap-1 rounded-md">
-                <i class="text-product-purple text-icon ph-fill ph-map-pin"></i>
-                <span class="text-product-purple-dark text-sm tracking-wide">Paripiranga, BA</span>
+<header class="fixed top-0 w-full bg-base-background">
+    <div class="mx-auto flex max-w-[1440px] items-center justify-between px-40 py-6">
+        <a href="{{ route('home') }}" wire:navigate><img src="imgs/coffee-delivery-logo.svg" alt="Logo"></a>
+        <div class="flex items-center justify-center gap-1">
+            <div class="flex items-center justify-center gap-1 rounded-md bg-product-purple-light p-2">
+                <i class="ph-fill ph-map-pin text-icon text-product-purple"></i>
+                <span class="text-sm tracking-wide text-product-purple-dark">Paripiranga, BA</span>
             </div>
-            <div class="relative w-14 h-14 flex justify-center items-center bg-inherit -mr-2">
-                <a href="{{ route('checkout') }}" wire:navigate class="w-[38px] h-[38px] flex justify-center items-center rounded-md bg-product-yellow-light">
-                    <i class="text-product-yellow-dark text-icon ph-fill ph-shopping-cart"></i>
+            <div class="relative -mr-2 flex h-14 w-14 items-center justify-center bg-inherit">
+                <a href="{{ route('checkout') }}" wire:navigate
+                    class="flex h-[38px] w-[38px] items-center justify-center rounded-md bg-product-yellow-light">
+                    <i class="ph-fill ph-shopping-cart text-icon text-product-yellow-dark"></i>
                     @if ($this->getCountCart > 0)
-                    <span class="text-base-white text-xs font-bold absolute top-0 right-0 rounded-full flex justify-center items-center bg-product-yellow-dark w-5 h-5">
-                        {{ $this->getCountCart }}
-                    </span>
+                        <span
+                            class="absolute right-0 top-0 flex h-5 w-5 items-center justify-center rounded-full bg-product-yellow-dark text-xs font-bold text-base-white">
+                            {{ $this->getCountCart }}
+                        </span>
                     @endif
                 </a>
             </div>

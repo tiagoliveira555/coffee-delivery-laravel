@@ -26,7 +26,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## Projeto
 
-O projeto consiste em um serviço de delivery de cafés, onde os usuários podem navegar pelo catálogo$
+O projeto consiste em um serviço de delivery de cafés, onde os usuários podem navegar pelo catálogo, e escolher o café desejado. Além de poder acrescentar no carrinho, remover. Adicionar seu endereço e meio de pagamento, que o delivery irá chegar até você.
 
 ## Como executar
 
