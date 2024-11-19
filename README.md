@@ -13,7 +13,7 @@
 
 ## 🔗 Link do Projeto
 
-[Clique aqui](https://coffee-delivery.tiagodeveloper.tech/)
+[Clique aqui](https://168.138.155.74/)
 
 ## Tecnologias
 
